@@ -1,6 +1,6 @@
 ## changelog.sh
 
-auto generate changelog during tag2tag from git-commit-message
+从git的commit message中，提取信息，生成从tag到tag之间的changelog
 
 usage:
 ```bash
@@ -21,7 +21,8 @@ sh changelog.sh
 
 ## php_modify_check.sh
 
-auto check syntax of changed php files in git repo
+批量自动检查git仓库中修改过的php文件的语法
+
 usage:
 ```bash
 sh php_modify_check.sh
